@@ -1,7 +1,6 @@
-name: Daniel Violin
-student number: 101173598
 
-1. Navigate to location of assignment4 inside terminal
+
+1. Navigate to location of the folder inside terminal (unzip the views folder as well)
 2. Do what you do with the database on your end, not entirely sure how your setup will be. For me I had the database file in the same directory
    and would run the daemon when wanting to start up the server
 3. Run 'npm install' at this location to install the dependencies needed
@@ -11,7 +10,7 @@ student number: 101173598
 
 Design Choices:
 
-- Firstly, I decided not to use routers in this assignment, instead I opted to handle it through a single, bigger
+- Firstly, I decided not to use routers in this website, instead I opted to handle it through a single, bigger
   client.js and a larger server.js (the routes in the server were relatively small so for convenience I did not make
   new files for each route). I still included routes to handle the request but I didnt put them into different js files like
   we've observed in lecture and tutorials. Instead all my routes are in the same place (a4-server.js).
